@@ -57,7 +57,7 @@
 		Атрибут <code>srcset</code> задаёт путь к графическим файлам с учётом размера изображения и устройств.
 
 		<figure>
-		<img src="html5-logo.svg" srcset="html5-logo.png 800w" sizes="(min-width: 700px) 100px, (max-width: 700px) 500px">
+		<img src="html5-logo.svg" srcset="html5-logo.png 500w" sizes="(min-width: 700px) 500px, (max-width: 1000px) 900px">
 		<figcaption>Размеры изображения для разных макетов страницы</figcaption>
 		</figure>
 
@@ -80,9 +80,9 @@
 
 		<figure>
 			<picture>
-			 <source srcset="mushroom_retina.jpg" media="(min-width: 1200px)">
-			 <source srcset="mushroom.jpg" media="(min-width: 650px)">
-			 <source srcset="mushroom_landscape.jpg" media="(min-width: 600px)">
+			 <source srcset="mushroom_retina.jpg">
+			 <source srcset="mushroom.jpg">
+			 <source srcset="mushroom_landscape.jpg">
 			 <img src="mushroom_portrait.jpg" alt="гриб">
 			</picture>
 			<figcaption>Использование picture</figcaption>

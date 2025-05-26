@@ -8,6 +8,7 @@ html {
 	 p {
       text-align: right;
       margin-bottom: 1em; 
+      line-height: 1.7; 
      }
 	 h1, h2 {
       font-family: Roboto, sans-serif;

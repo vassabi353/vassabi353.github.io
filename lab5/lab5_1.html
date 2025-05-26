@@ -6,17 +6,23 @@
 <style>
 .menu{
 	list-style:none;
-	margin:0;
-	padding:10px;
+	margin: 0;
+	padding: 10px;
 }
 .menu li{
-	
+	float: left; 
+    margin: 5px; 
 }
 .menu li a{
-	display:block;
-	padding:10px;
-	background:#ccf;
+	display: block;
+	padding: 10px;
+	background: #ccf;
 }
+.menu::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
 </style>
 </head>
 <body>

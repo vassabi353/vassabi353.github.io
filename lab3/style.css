@@ -27,6 +27,7 @@ html {
      }
      strong {
       font-family: Caveat;
+      font-weight: normal; 
      }
      article {
       border: 5px solid #1d640f;

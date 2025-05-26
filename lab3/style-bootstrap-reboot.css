@@ -1,0 +1,40 @@
+@import "bootstrap-reboot.css";
+
+html {
+      background-color: #ffffff;
+      color: #1D1D1D;
+      font-size: 1.5rem;
+      line-height: 2rem;
+      background: url(pattern.svg);
+     }
+	 p {
+      text-align: right;
+      margin-bottom: 1em; 
+      line-height: 1.7; 
+     }
+	 h1, h2 {
+      font-family: Roboto, sans-serif;
+      text-align: right;
+      font-weight: 600; 
+      color: #e05050;
+     }
+	 em {
+      color: #FFCC00;
+     }
+	 div.wrapper {
+      max-width: 960px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 10px;
+      padding-right: 10px; 
+     }
+     strong {
+      font-family: Caveat;
+      font-weight: normal; 
+     }
+     article {
+      border: 5px solid #1d640f;
+      border-radius: 10px;
+      margin: 1em; 
+      padding: 2em;
+     }

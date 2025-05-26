@@ -15,10 +15,11 @@ html {
 	 h1, h2 {
       font-family: Roboto, sans-serif;
       text-align: right;
-      color: #FFCC00;
+      font-weight: 600; 
+      color: #e05050;
      }
 	 em {
-      color: #4eb543;
+      color: #FFCC00;
      }
 	 div.wrapper {
       max-width: 960px;

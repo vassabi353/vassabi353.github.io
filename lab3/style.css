@@ -22,3 +22,6 @@ html {
       padding-left: 10px;
       padding-right: 10px; 
      }
+     strong {
+      font-family: Caveat;
+     }
